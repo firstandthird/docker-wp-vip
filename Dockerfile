@@ -6,4 +6,4 @@ RUN git clone https://github.com/Automattic/vip-quickstart.git /srv
 
 WORKDIR /srv
 
-RUN ./srv/bin/vip-init --server --domain vip.dev
+RUN /srv/bin/vip-init --server --domain vip.dev
